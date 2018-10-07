@@ -1,0 +1,30 @@
+input.av-touched.av-pristine.av-invalid.form-control {
+  border-bottom: 2px solid #ff0000 !important;
+}
+input.av-touched.av-invalid{
+border-bottom: 2px solid #ff0000 !important;
+}
+
+.blog-container {
+  padding: 0 !important;
+}
+
+.red {
+  color: $red;
+}
+
+.padding {
+  padding: $base-padding;
+}
+
+td em {
+  color: $red;
+}
+
+.search-header {
+  display: inline-flex;
+  .sku-switch {
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+  }
+}

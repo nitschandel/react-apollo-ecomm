@@ -1,0 +1,11 @@
+type Product {
+  id: ID!
+  name: String!
+  image: String!
+  price: String!
+}
+
+type AllProducts {
+    products: [Product!]
+    count: Int!
+}

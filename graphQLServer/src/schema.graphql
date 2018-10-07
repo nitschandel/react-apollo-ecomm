@@ -1,0 +1,15 @@
+# import User, AuthPayload, AllUsers from "./schemas/user.graphql"
+# import Product from "./schemas/product.graphql"
+
+type Query {
+  users: AllUsers!
+  products: AllProducts!
+  user: User!,
+  product(id: String!): Product!
+}
+
+type Mutation {
+  login(email: String!, password: String!): AuthPayload
+  createProduct(name: String!, image: String!, price: String!): Product
+  editProduct(id: String!, name: String!, image: String!, price: String!): Product
+}

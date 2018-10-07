@@ -1,0 +1,84 @@
+mutation {
+user: createUser(
+        data:{    
+            email: "admin@admin.com",
+            name: "Admin",
+            password: "$2y$10$tmw6ORnbv./WzD1Vfo4gBerLtBf2aCCWRzKAGgHZ58VqunwUXZES."
+        }
+  ){
+	name
+  }
+  product1: createProduct(
+			  	data:{
+			  		name: "LG Washing Machine",
+			  		image: "https://www.lg.com/in/images/washing-machines/md05834452/gallery/FH0H3NDNL02_large1.jpg",
+			  		price: "20000"
+			  	}
+  ){
+  	name
+  }
+  product2: createProduct(
+			  	data:{
+			  		name: "One Plus 6T",
+			  		image: "https://www.theinquirer.net/w-images/98662a0a-68eb-4707-9133-a1ce0d93e910/2/Screenshot20180927at102855-580x358.png",
+			  		price: "36000"
+			  	}
+  ){
+  	name
+  }
+  product3: createProduct(
+			  	data:{
+			  		name: "POP Antman",
+			  		image: "https://images-na.ssl-images-amazon.com/images/I/61zKVuGoTgL._SX425_.jpg",
+			  		price: "1500"
+			  	}
+  ){
+  	name
+  }
+  product4: createProduct(
+			  	data:{
+			  		name: "Skybag Trolley bag",
+			  		image: "https://d2j1mo4repc142.cloudfront.net/cdn/771615/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/_/1_oscar_dual_color_1.jpg",
+			  		price: "4500"
+			  	}
+  ){
+  	name
+  }
+  product5: createProduct(
+			  	data:{
+			  		name: "Dove Soap",
+			  		image: "https://images-eu.ssl-images-amazon.com/images/I/41PO64wqjgL._SY300_QL70_.jpg",
+			  		price: "40"
+			  	}
+  ){
+  	name
+  }
+  product6: createProduct(
+			  	data:{
+			  		name: "JBL Charge 3",
+			  		image: "https://brain-images-ssl.cdn.dixons.com/9/0/10145709/u_10145709.jpg",
+			  		price: "10000"
+			  	}
+  ){
+  	name
+  }
+  product7: createProduct(
+			  	data:{
+			  		name: "Mi Power Bank",
+			  		image: "https://cf3.s3.souqcdn.com/item/2017/03/21/22/27/33/17/item_XL_22273317_30011586.jpg",
+			  		price: "2000"
+			  	}
+  ){
+  	name
+  }
+  product8: createProduct(
+			  	data:{
+			  		name: "Amazon Echo",
+			  		image: "https://media.wired.com/photos/59268c957034dc5f91bebd29/master/pass/Echo.jpg",
+			  		price: "5000"
+			  	}
+  ){
+  	name
+  }
+
+}

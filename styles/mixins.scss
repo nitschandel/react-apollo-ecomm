@@ -1,0 +1,8 @@
+@mixin fa-icon($icon) {
+  font-family: "FontAwesome";
+  content: $icon;
+}
+
+@mixin font-bold() {
+  font-weight: 700;
+}

@@ -1,0 +1,26 @@
+// Customize variables
+
+// This gets loaded after bootstrap/variables is loaded, so you can refer to
+// bootstrap variables configured by bootstrap. For example, the _variables.scss contains:
+// $btn-primary-bg: $brand-primary !default;
+
+$nav-tabs-border-width: 0;
+$nav-tabs-link-hover-border-color: $gray;
+$nav-tabs-active-link-hover-color: $white;
+$nav-tabs-active-link-hover-bg: $gray;
+$nav-tabs-active-link-hover-border-color: $gray;
+
+$font-size-h1: 2.5em;  // 30pt
+$font-size-h2: 1.66em; // 20pt
+$font-size-h3: 1.33em; // 16pt
+$font-size-h4: 1.16em; // 14pt
+$font-size-h5: 0.83em; // 10pt
+$font-size-h6: 0.66em; // 8pt
+
+$tag-pill-border-radius: 1em;
+$tag-default-bg: $white;
+$tag-font-weight: normal;
+
+$card-spacer-x: 1em;
+
+$blockquote-border-width: 0;

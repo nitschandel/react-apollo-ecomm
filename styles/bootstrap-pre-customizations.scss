@@ -1,0 +1,80 @@
+// Customize Bootstrap variables that get imported before the original Bootstrap variables.
+// Thus original Bootstrap variables can depend on values from here.
+
+// This path is relative to this file!
+$font-family-sans-serif: 'Lato', sans-serif;
+$headings-font-family: 'Lato', sans-serif;
+$headings-font-weight: 400;
+$new-title-font: 'Oswald', sans-serif;
+
+// This path is relative to this file!
+$fonts-url-path: '../fonts';
+
+$enable-rounded:false !default;
+
+// Reassign color vars to semantic color scheme
+$red:           #FF5998 !default;
+$red-light:     #FFC1C1 !default;
+$orange:        #F06E28 !default;
+$orange-light:  #FEF1E9 !default;
+$orange-medium: #FBDFD0 !default;
+$orange-dark:   #FE4F31 !default;
+$green:         #52A300 !default;
+$green-light:   #7DAE29 !default;
+$yellow:        #FFA800 !default;
+$yellow-light:  #FFEDCA !default;
+$teal:          #00A9AB !default;
+$white:         #FFFFFF !default;
+$gray-light:    #B3B3B3 !default;
+$gray-medium:   #7F7F7F !default;
+$gray:          #4C4C4C !default;
+$black:         #000000 !default;
+$blue:          #596fff !default;
+$blue-light:    #e4f0fc !default;
+$green-safe:    #b3c13e !default;
+
+$brand-primary: $teal !default;
+$brand-inverse: $gray !default;
+$brand-warning: $yellow !default;
+$navbar-light-color: $gray-medium !default;
+$link-color: $black !default;
+$blockquote-small-color: $gray-medium !default;
+
+$input-bg: transparent !default;
+$input-border-color: $gray-medium !default;
+$input-padding-x: 0 !default;
+$input-padding-y: 0.5rem !default;
+$input-margin-right: 1rem !default;
+$input-group-addon-bg: transparent !default;
+
+$body-bg: #F2F2F2 !default;
+$body-color: $gray !default;
+
+$spacer: 1em !default;
+$spacer-x: 1em !default;
+$spacer-y: 1em !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 768px,
+  lg: 960px,
+  xl: 1180px
+) !default;
+
+$grid-gutter-width-base: 20px !default;
+$grid-gutter-height-base: 20px !default;
+
+$btn-padding-x-lg: 1em !default;
+$btn-padding-y-lg: 1em !default;
+$btn-font-size-lg: 1em !default;
+
+$navbar-padding-x: 0 !default;
+$nav-link-padding: 1em !default;
+
+$card-border-width: 0 !default;
+
+$tag-font-size: 0.75em !default;
+
+$tooltip-bg: $white;
+$tooltip-color: $black;
+$tooltip-arrow-color: $gray-medium;
